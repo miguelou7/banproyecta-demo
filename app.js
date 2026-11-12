@@ -83,10 +83,10 @@
   function initials(name) {
     return name.split(' ').slice(0, 2).map(function (w) { return w.charAt(0); }).join('');
   }
-  var ICON_CHECK = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path class="s-brand" d="M5 12.5l4.5 4.5L19 7.5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var ICON_CHECK = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path class="s-accent" d="M5 12.5l4.5 4.5L19 7.5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var ICON_ARROW = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var ICON_CHEV = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  var ICON_PIN = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path class="s-brand" d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z" stroke-width="2"/><circle class="s-brand" cx="12" cy="9.5" r="2.5" stroke-width="2"/></svg>';
+  var ICON_PIN = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path class="s-white" d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z" stroke-width="2"/><circle class="s-white" cx="12" cy="9.5" r="2.5" stroke-width="2"/></svg>';
   var ICON_PLUS = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path class="s-brand" d="M12 5v14M5 12h14" stroke-width="2.2" stroke-linecap="round"/></svg>';
 
   /* ---------- Estado ---------- */
